@@ -1,0 +1,173 @@
+* {
+  font-family: 'Barlow';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Nav */
+
+#menu-h{
+  background-color: #fff;
+}
+
+#menu-h ul {
+  max-width: 800px;
+  list-style: none;
+  padding: 0;
+}
+
+#menu-h ul li {
+  display: inline;
+}
+
+#menu-h ul li a {
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background .4s;
+  margin-left: 10px;
+}
+
+#menu-h ul li a:hover {
+  background-color: rgb(247, 209, 1, 255);
+}
+
+#logo {
+  font-size: 30px;
+  color: rgb(247, 209, 1, 255);
+  margin-left: 50px;
+}
+
+/* background  1 section */
+
+#brand-description {
+  background: url('2.png'); 
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--text-color);
+}
+
+
+#disclaimer h2 {
+  color: black;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+#disclaimer .brand-description_1 {
+  color: black;
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  max-width: 550px;
+  font-weight: bold;
+}
+#disclaimer .about-brand{
+  
+  font-size: 2em;
+  text-transform: uppercase;
+  max-width: 550px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#disclaimer p {
+  font-size: 1.2em;
+  margin-bottom: .3em;
+}
+
+#subscription-form {
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+  padding: 2em;
+  max-width: 222%;
+  border-radius: 15px;
+}
+
+#subscription-form p {
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 1em;
+}
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8em;
+  
+}
+
+
+.form-group input {
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  background-color: black;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  opacity: .8;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/* 2 section */
+
+
+
+#brand-description_1 {
+  background: #fff;
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--text-color);
+}
+
+
+#disclaimer_1 h2 {
+  color: black;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+#disclaimer_1 .brand-description_2 {
+  color: black;
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  max-width: 550px;
+  font-weight: bold;
+}
+#disclaimer_1 .about-brand_1{
+  
+  font-size: 2em;
+  text-transform: uppercase;
+  max-width: 550px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#disclaimer_1 p {
+  font-size: 1.2em;
+  margin-bottom: .3em;
+}
+
+
