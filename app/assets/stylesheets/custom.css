@@ -1,3 +1,4 @@
+
 * {
   font-family: 'Barlow';
   margin: 0;
@@ -9,13 +10,14 @@
 /* Nav */
 
 #menu-h{
-  background-color: #fff;
+  background-color: #fff; 
 }
 
 #menu-h ul {
   max-width: 800px;
   list-style: none;
-  padding: 0;
+  padding: 0;   
+  font-size: 20px;
 }
 
 #menu-h ul li {
@@ -29,6 +31,7 @@
   text-decoration: none;
   transition: background .4s;
   margin-left: 10px;
+  font-weight: bold;
 }
 
 #menu-h ul li a:hover {
@@ -41,8 +44,11 @@
   margin-left: 50px;
 }
 
-/* background  1 section */
 
+
+
+
+/* About Brand */
 #brand-description {
   background: url('2.png'); 
   background-position: center;
@@ -51,9 +57,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: var(--text-color);
 }
-
 
 #disclaimer h2 {
   color: black;
@@ -64,14 +68,14 @@
 #disclaimer .brand-description_1 {
   color: black;
   margin-bottom: 0.5em;
-  font-size: 1.2em;
+  font-size: 1.5em;
   max-width: 550px;
   font-weight: bold;
 }
 #disclaimer .about-brand{
-  
-  font-size: 2em;
-  text-transform: uppercase;
+  color: black;
+  font-size: 3em;
+  /*text-transform: uppercase;*/
   max-width: 550px;
   font-weight: bold;
   margin-bottom: 1em;
@@ -83,10 +87,11 @@
 }
 
 #subscription-form {
-  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+  background-color: var(--text2);
   padding: 2em;
   max-width: 222%;
   border-radius: 15px;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
 }
 
 #subscription-form p {
@@ -95,20 +100,24 @@
   margin-bottom: 1em;
 }
 
-
 .form-group {
   display: flex;
   flex-direction: column;
   margin-bottom: 0.8em;
-  
 }
 
+.form-group label {
+  color: var(--text-terciary);
+  margin-bottom: .3em;
+  font-weight: bold;
+}
 
 .form-group input {
   padding: 6px 8px;
   border-radius: 5px;
   border: none;
   outline: none;
+  margin: 10px; 
 }
 
 .btn {
@@ -127,47 +136,350 @@
   opacity: 1;
 }
 
-/* 2 section */
+
+/* About brand 2 */
 
 
-
-#brand-description_1 {
-  background: #fff;
+#brand-description_03 {
+  background-color: #fff; 
   background-position: center;
   background-size: cover;
   height: 85vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: var(--text-color);
 }
 
-
-#disclaimer_1 h2 {
-  color: black;
+.disclaimer_03 h2 {
+  color: rgb(247, 209, 1, 255);
   font-size: 3em;
   margin-bottom: 1em;
 }
 
-#disclaimer_1 .brand-description_2 {
+.disclaimer_03 .brand-description_03 {
   color: black;
   margin-bottom: 0.5em;
-  font-size: 1.2em;
+  font-size: 1.5em;
   max-width: 550px;
   font-weight: bold;
 }
-#disclaimer_1 .about-brand_1{
-  
-  font-size: 2em;
-  text-transform: uppercase;
+.disclaimer_03 .about-brand_03{
+  color: black;
+  font-size: 3em;
+  /*text-transform: uppercase;*/
   max-width: 550px;
   font-weight: bold;
   margin-bottom: 1em;
 }
 
-#disclaimer_1 p {
+.disclaimer_03 p {
   font-size: 1.2em;
   margin-bottom: .3em;
 }
 
+#imagem {
+  display:flex;
+}
 
+.disclaimer_03 a {
+  font-size: 1.5em;
+}
+
+/* SECTION 03 */
+#section4 {
+  height: 85vh;
+  background-color: #F5F5F5;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--text-color);
+  margin-bottom: 3em;
+}
+
+.disclaimer_04 h2 {
+  color: rgb(247, 209, 1, 255);
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.disclaimer_04 .brand-description_04 {
+  color: black;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  max-width: 550px;
+  font-weight: bold;
+}
+.disclaimer_04 .about-brand_04{
+  color: black;
+  font-size: 3em;
+  /*text-transform: uppercase;*/
+  max-width: 550px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.disclaimer_04 p {
+  font-size: 1.2em;
+  margin-bottom: .3em;
+}
+
+#imagem_04 {
+  display:flex;
+}
+
+.disclaimer_04 a {
+  font-size: 1.5em;
+}
+
+
+
+
+
+/* SECTION 04 */
+#section5 {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('1.png'); 
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+
+/*.disclaimer_05 h2 {
+  color: rgb(247, 209, 1, 255);
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+*/
+.disclaimer_05 .brand-description_04 {
+  color: black;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  max-width: 550px;
+  font-weight: bold;
+}
+.disclaimer_05 .about-brand_05{
+  color: #fff;
+  font-size: 3.5em;
+  /*text-transform: uppercase;*/
+  max-width: 550px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.disclaimer_05 p {
+  font-size: 1.2em;
+  margin-bottom: .3em;
+}
+
+#imagem_05 {
+  display:flex;
+}
+
+.disclaimer_05 a {
+  font-size: 1.5em;
+}
+
+
+
+/* SECTION 05 */
+#section6 {
+  background: url('3.png'); 
+  background-position: center;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*.disclaimer_06 h2 {
+  color: rgb(247, 209, 1, 255);
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+*/
+.disclaimer_06 .brand-description_06 {
+  color: black;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  max-width: 550px;
+  font-weight: bold;
+}
+.disclaimer_06 .about-brand_06{
+  color: #fff;
+  font-size: 3.5em;
+  /*text-transform: uppercase;*/
+  max-width: 550px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.disclaimer_06 p {
+  font-size: 1.2em;
+  margin-bottom: .3em;
+}
+
+#imagem_06 {
+  display:flex;
+}
+
+.disclaimer_06 a {
+  font-size: 1.5em;
+}
+
+
+
+
+
+/* Footer */
+#footer {
+  text-align: center;
+  color: black;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#footer h3 {
+  font-size: 1.8em;
+  margin-bottom: .5em;
+  margin-top: 5em;
+}
+
+#footer p:nth-child(2) {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+#footer span {
+  font-weight: bold;
+}
+
+.socials {
+  font-size: 1.5rem;  
+  color: rgb(247, 209, 1, 255);
+}
+
+#footer p {
+  margin-top: 0.5rem;
+}
+
+
+
+
+/* RESPONSIVE SCREEN */
+
+
+/* Mobile */
+@media (max-width: 450px) {
+  .btn {
+      opacity: 1;
+ }
+
+
+  /* About Brand */
+  #brand-description . {
+      flex-direction: column;
+      height: auto;
+  }
+  #brand-description_03  {
+      flex-direction: column;
+      height: auto;
+  }
+	
+      #section4  {
+      flex-direction: column;
+      height: auto;
+  }
+
+	
+  #disclaimer {
+      padding: 2em;
+  }
+
+  .disclaimer_03 {
+      padding: 2em;
+  }
+
+  .disclaimer_04 {
+      padding: 2em;
+  }
+  
+  #disclaimer h2 {
+      margin-bottom: .5em;
+  }
+  
+    .disclaimer_03 h2 {
+      margin-bottom: .5em;
+  }
+  
+    .disclaimer_04 h2 {
+      margin-bottom: .5em;
+  }
+
+  #subscription-form {
+      max-width: 70%;
+      margin-bottom: 2em;
+  }
+}
+
+
+/* Responsive all*/
+@media (max-width: 1100px) {
+  .btn {
+      opacity: 1;
+ }
+
+
+  /* About Brand */
+  #brand-description {
+      flex-direction: column;
+      height: auto;
+  }
+  
+   #brand-description_03 {
+      flex-direction: column;
+      height: auto;
+  }
+  
+   #section4 {
+      flex-direction: column;
+      height: auto;
+  }
+
+  #disclaimer {
+      padding: 2em;
+  }
+  
+   .disclaimer_03 {
+      padding: 2em;
+  }
+
+.disclaimer_04 {
+      padding: 2em;
+  }
+
+  #disclaimer h2 {
+      margin-bottom: .5em;
+  }
+
+ .disclaimer_03 h2 {
+      margin-bottom: .5em;
+  }
+
+.disclaimer_04 h2 {
+      margin-bottom: .5em;
+  }
+
+
+  #subscription-form {
+      max-width: 70%;
+      margin-bottom: 2em;
+  }
+}
